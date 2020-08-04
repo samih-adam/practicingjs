@@ -13,5 +13,20 @@
     width: 20px;
     height: 50px;
     background-color: red;
+    position: relative;
+    top: 150px;
 }
+#block{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1s;
+}
+@keyframes block{
+    0%{left: 480px;}
+    0%{left: 480px;}
 
+}
